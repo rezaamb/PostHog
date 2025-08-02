@@ -7,6 +7,14 @@ chmod +x install-posthog-haproxy.sh
 ./install-posthog-haproxy.sh
 ```
 
+حالا فایل های داکری که درست شده رو اجرا میکنیم :
+```bash
+docker compose up -d
+```
+```bash
+docker compose down -v
+```
+
 
 وقتی دیدیم که اوکی بود روی systemd اجراش میکنیم :
 
